@@ -33,6 +33,7 @@ function viewCart() {
             else {
               myString += "."
             }
+          console.log(myString);
         }
       }
   }
