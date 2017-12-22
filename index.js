@@ -54,7 +54,10 @@ function total() {
 function removeFromCart(item) {
   // write your code here
 for (var i = 0, l = item.length; i < l; i++) {
-  if ()
+
+for (var list in cart[i]) {
+  
+}
 }
   
 }
