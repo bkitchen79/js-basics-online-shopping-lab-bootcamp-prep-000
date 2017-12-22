@@ -53,10 +53,10 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-for (var i = 0, l = item.length; i < l; i++) {
+  for (var i = 0, l = item.length; i < l; i++) {
 
-for (var list in cart[i]) {
-  if(item === list) {
+  for (var list in cart[i]) {
+    if(item === list) {
     cart.splice(i,1)
     return cart
   }
