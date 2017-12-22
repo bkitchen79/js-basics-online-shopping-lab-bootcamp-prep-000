@@ -45,6 +45,10 @@ else{
 
 function total() {
   // write your code here
+
+
+
+
 }
 
 function removeFromCart(item) {
