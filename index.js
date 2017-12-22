@@ -32,7 +32,7 @@ function viewCart() {
           }
             else {
               myString += "."
-        }
+          }
         
         }
       }
