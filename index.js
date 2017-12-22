@@ -29,7 +29,7 @@ function viewCart() {
         myString += '${item} at $${cart[i][list]}'
           if(i !== cart.length - 1) {
             myString += ", "
-            }
+          }
             else {
               myString += "."
             }
