@@ -36,6 +36,7 @@ function viewCart() {
         
         }
       }
+      console.log(myString)
   }
   
 }
