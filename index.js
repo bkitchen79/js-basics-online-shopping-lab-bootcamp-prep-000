@@ -26,7 +26,7 @@ function viewCart() {
     var myString = "In your cart you have "
       for (var i = 0, l = cart.length; i < l; i++) {
         for (var list in cart[i]) {
-          myString += '${item} at $${cart[i][list]}'
+        myString += '${item} at $${cart[i][list]}'
             if(i !== cart.length - 1) {
               myString += ", "
             }
