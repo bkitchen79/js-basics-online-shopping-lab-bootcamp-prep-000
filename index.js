@@ -63,7 +63,7 @@ for (var list in cart[i]) {
 }
 }
 console.log("That item is not in your cart")
-return
+return cart
 }
 
 function placeOrder(cardNumber) {
